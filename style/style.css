@@ -1,0 +1,107 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    color: #EBB8DF;
+}
+.container-fluid{
+    transition: background-color .3s;
+}
+.question, h1{
+    font-weight: 700;
+}
+.option{
+    transition: color .2s;
+    font-weight: 600;
+}
+.option:hover{
+    color: #f0dedb;
+    cursor: pointer;
+    transition: color .2s;
+}
+
+.option.active{
+    color: #f0dedb;
+}
+
+.btn-main{
+    background-color: #EBB8DF;
+    color: #1B285D;
+    border: 5px solid #EBB8DF;
+    font-weight: 600;
+    outline: none !important;
+    box-sizing: border-box;
+}
+
+.btn-main:hover{
+    background-color: #1B285D;
+    color: #EBB8DF;
+    border: 5px solid #EBB8DF;
+}
+
+.btn-main:focus, .btn-sec:focus{
+    box-shadow: none;
+}
+
+.btn-sec{
+    background-color: #1B285D;
+    color: #EBB8DF;
+    border: 5px solid #1B285D;
+    font-weight: 600;
+    outline: none !important;
+    box-sizing: border-box;
+}
+
+.btn-sec:hover{
+    background-color: #EBB8DF;
+    color: #1B285D;
+    border: 5px solid #1B285D;
+}
+
+.item{
+    height: 100vh;
+    width: 100vw;
+}
+.owl-nav{
+    position: initial;
+    font-size: 5rem;
+}
+
+.owl-prev{
+    left: 2%;
+}
+.owl-next{
+    right: 2%;
+}
+.owl-next, .owl-prev{
+    position: absolute;
+    top: 45%;
+    outline: none !important;
+    transition: opacity .2s, color .2s;
+}
+
+.owl-next:hover, .owl-prev:hover{
+    color: #f0dedb !important;
+    transition: color .2s;
+}
+
+.owl-next.disabled, .owl-prev.disabled{
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.modal-content{
+    color: #1B285D;
+    background-color: #EBB8DF;
+}
+.modal-header{
+    border-bottom: 2px solid #1B285D;
+}
+
+.modal-title{
+    font-weight: 600;
+}
+.modal-footer{
+    border-top: 2px solid #1B285D;
+}
